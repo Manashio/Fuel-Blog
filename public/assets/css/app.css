@@ -1,0 +1,161 @@
+body{
+    font-family: 'Roboto',sans-serif!important;
+    
+}
+.header,.navbar{
+    background-color: #3367d6 !important;
+}
+.navbar-item{
+    color: #FFF !important;
+}
+.navbar-item:hover{
+    background-color: transparent !important;
+}
+
+.navbar-item{
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.section,footer{
+    background-color: #f1f1f1;
+}
+footer{
+    padding: 50px 0;
+    background:#EEE; 
+}
+.logo{
+    font-size: 13px;
+    color: #3367d6;
+    font-weight: 500;
+}
+.sub-title{
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #999;
+}
+
+
+.form{
+    padding: 20px;
+}
+.heading-4{
+    padding-left:20px; 
+    text-align: left;
+    padding-top:40px;
+    font-weight: 400;
+    color: #888; 
+}
+label{
+    font-size: 13px;
+    font-weight: 500;
+    color: #3367d6;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    padding: 3px 10px;
+    background: #FFF;
+}
+input,textarea{
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    border: 0px;
+    border: 2px solid #CCC;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    transition: 0.4s;
+    font-weight:500;
+    color: #555;
+    font-size: 15px;
+}
+textarea:focus,input:focus{
+    outline: 0px;
+    border: 2px solid #3367d6;
+}
+input[type=submit]{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 4px;
+    display: block;
+    background: #3367d6;
+    color: #FFF;
+    border:0px;
+    cursor: pointer;
+    margin-top: 13px;
+    border: 1px solid #3367d6;
+}
+input[type=submit]:hover,input[type=submit]:focus{
+    outline: 0px;
+    background: #2850a7;
+}
+.card{
+    border-radius: 3px;
+    margin-top:30px;
+    margin-bottom: 100px;
+    box-shadow: 0 0px 0px !important;
+
+}
+.shadow{
+    box-shadow: 0 3px 3px rgba(10,10,10,.1), 0 0 0 0px rgba(10,10,10,.1) !important;
+}
+.card-body{
+    padding-bottom: 20px;
+}
+
+.card-heading{
+    padding-top: 20px;
+}
+.info{
+    position: relative;
+    top: -10px;    
+}
+.img-placeholder{
+    height:auto;
+    background-color: #333;
+    border-radius: 3px 3px 0 0;
+}
+.card-author{
+    width: 100px;
+    height: 100px;
+    background: #FFF url('https://yt3.ggpht.com/a-/AN66SAzO3ngJ1T-Iz-ubW61PfS-a7in23OTgAt_dhg=s900-mo-c-c0xffffffff-rj-k-no');
+    border: 4px solid #FFF ;
+    background-size: contain;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 24px;
+    margin-left:24px ;
+}
+.author-name{
+    left: 140px;
+    position: absolute;
+    width: 200px;
+    background: transparent;
+    bottom: 50px;
+}
+.text-bold{
+    font-weight: 500;
+}
+.card-heading{
+    padding-bottom: 50px;
+}
+.title{
+    font-weight: 300!important;
+}
+p{
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 400;
+}
+.fa-link{
+    color: #f9727f;
+    padding: 15px;
+    border-radius: 500%;
+    background: #FFF;
+    transition: 0.2s;
+}
+.fa-link:hover{ 
+    color: #EEE;
+}
